@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/hitotsume-kozo",
     "maintainers": [
       {
@@ -16,72 +16,119 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "hitotsume-kozo",
-    "name": "Hitotsume-Kozo - The One-Eyed Boy Yokai",
-    "aliases": [],
+    "name": "Hitotsume-kozō",
+    "aliases": [
+      { "name": "一つ目小僧", "language": "Japanese (kanji)", "meaning": "One-eyed young Buddhist acolyte" },
+      { "name": "Hitotsume-kozou", "language": "Japanese (rōmaji variant)" },
+      { "name": "One-eyed monk-boy", "language": "English gloss" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
+    "subcategory": "Yōkai (Japanese folklore)",
     "tags": [
+      "yokai",
+      "japan",
       "folklore",
-      "mythology"
+      "one-eyed",
+      "buddhist",
+      "kanto-region",
+      "kotoyoka",
+      "harmless"
     ],
     "status": "documented",
     "description": {
-      "summary": "The \\\"kozo\\\" (小僧) in the name refers to a young Buddhist acolyte or temple servant, connecting this yokai to Buddhist tradition:",
-      "full": "The \\\"kozo\\\" (小僧) in the name refers to a young Buddhist acolyte or temple servant, connecting this yokai to Buddhist tradition:"
+      "summary": "A Japanese yōkai depicted as a bald child-monk with a single large eye in the centre of its face; widely treated in folklore as comparatively harmless, surprising rather than injuring those who encounter it.",
+      "full": "Hitotsume-kozō (一つ目小僧) is a yōkai of Japanese folklore, classically depicted as a small bald child resembling a Buddhist acolyte (kozō, 小僧) with a single large eye in the middle of its forehead. It appears in classical yōkai bestiaries — most famously in Toriyama Sekien's Edo-period illustrated catalogues — and in regional folk tradition across Japan, especially in the Kantō region. Unlike many yōkai, hitotsume-kozō is generally considered harmless: its principal activity is to startle people by suddenly appearing on dark roads, in temples, or beside bridges. In Kantō tradition, it is associated with the kotoyōka days (the eighth day of the second and twelfth lunar months), on which households place woven bamboo baskets (megokago) on the eaves; the basket's many woven 'eyes' are believed to frighten away the one-eyed visitor. Some local traditions describe the hitotsume-kozō as a recorder of household misdeeds, listing transgressions in a book that is later submitted to a god of plague or misfortune. The creature is part of a wider Japanese folklore family of one-eyed beings — including the larger hitotsume-nyūdō, the one-eyed-and-one-legged ichigan-hitoashi, and various regional one-eyed deities — and has been linked by some scholars to fragmentary traditions about Mount Hiei's Tendai patriarch Ryōgen."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese: 一つ目 (hitotsume, 'one eye') + 小僧 (kozō, 'young Buddhist acolyte / boy / brat'). The kozō element places the figure within the Buddhist temple-servant register that recurs across Japanese yōkai imagery.",
+      "meaning": "'One-eyed little monk' or 'one-eyed boy'.",
+      "first_use": "Classical Edo-period yōkai literature (18th century)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yōkai",
+      "subtype": "Humanoid one-eyed spirit",
+      "variant": "Japan, especially Kantō region"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hitotsume-nyudo", "name": "Hitotsume-nyūdō", "relationship": "related", "description": "Larger one-eyed yōkai monk; an adult counterpart to hitotsume-kozō" },
+      { "id": "ichigan-hitoashi-hoshi", "name": "Ichigan-hitoashi hōshi", "relationship": "related", "description": "One-eyed, one-legged Buddhist priest figure of Mount Hiei tradition" },
+      { "id": "ao-bozu", "name": "Ao-bōzu", "relationship": "similar", "description": "One-eyed blue monk yōkai of Japanese folklore" },
+      { "id": "mehitotsubo", "name": "Mehitotsubō", "relationship": "regional_variant", "description": "Regional one-eyed yōkai variant" },
+      { "id": "cyclops", "name": "Cyclops", "relationship": "similar", "description": "One-eyed humanoid of Greek mythology (cross-cultural parallel)" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.0, "max": 1.4, "unit": "meters", "confidence": "low" },
+      "coloration": ["pale skin", "shaved head", "robes typical of a Buddhist novice"],
+      "features": [
+        { "feature": "Single central eye", "description": "One large round eye in the centre of the face, dominating the otherwise child-like features", "frequency": "always" },
+        { "feature": "Bald head", "description": "Shaved or bald head as for a Buddhist acolyte", "frequency": "always" },
+        { "feature": "Child-like body", "description": "Small, child-sized body, often described as around the size of a young temple servant", "frequency": "common" },
+        { "feature": "Long protruding tongue", "description": "Some illustrations, including those in the Toriyama Sekien tradition, depict a long red tongue", "frequency": "occasional" }
+      ],
+      "morphology": "A child-shaped humanoid figure with a single large eye, generally clad in the simple robes of a Buddhist temple acolyte."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Sudden appearance", "description": "Manifests abruptly along dark roads, in temples, beside bridges, or in homes, primarily to startle the witness", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Recording of misdeeds", "description": "In some Kantō traditions, hitotsume-kozō visit households on kotoyōka days to record family transgressions in a book", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["roadsides", "temple grounds", "village streets", "houses (on kotoyōka nights)"],
+      "diet": "Sometimes associated with tofu in popular and karuta imagery; not described as carnivorous or harmful.",
+      "patterns": [
+        "Appears suddenly to surprise rather than to attack",
+        "Active particularly on kotoyōka days (8th of 2nd and 12th lunar months)",
+        "Repelled by displays of multiple 'eyes' such as woven bamboo baskets and pierced holly leaves"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reported across Japan in classical and regional folklore, with the densest tradition in the Kantō region. Notable strands of tradition link the figure to Mount Hiei (Shiga / Kyōto) and to local folklore in eastern and central Japan.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Kantō region", "Mount Hiei (Tendai tradition)", "Central and eastern Honshū"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Edo period (18th century)",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Toriyama Sekien's illustrated yōkai catalogues"
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period (1603–1868)", "description": "Classical period of yōkai bestiary literature in which hitotsume-kozō entered the canon" },
+        { "period": "Modern era (20th–21st centuries)", "description": "Recurring presence in manga, anime, and popular yōkai culture" }
+      ],
+      "seasonal_patterns": "Strongly tied to kotoyōka days (8th day of the 2nd and 12th lunar months) in Kantō tradition."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Rooted in Japanese yōkai tradition, with influences from Buddhist temple culture (the kozō figure), Shintō rural ritual, and possibly older one-eyed deities of mountain and craft traditions.",
+      "earliest_accounts": "Classical Edo-period yōkai bestiaries; one strand of folklore links the figure to traditions about the 18th Tendai patriarch Ryōgen of Mount Hiei.",
+      "folklore_connections": "Closely connected with hitotsume-nyūdō, ichigan-hitoashi hōshi, and the broader family of one-eyed yōkai and deities in Japan."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1700-01-01", "event": "Edo-period Japan develops a rich illustrated yōkai literature in which hitotsume-kozō appears as a recurring figure", "significance": "Codification of the modern canonical image of hitotsume-kozō", "source": "Edo-period yōkai bestiaries (general)" }
+    ],
+    "modern_era": "Hitotsume-kozō remains a familiar figure in modern Japanese popular culture, appearing in yōkai-themed manga, anime, video games, and tourism merchandise. It is treated as one of the friendlier and more comedic yōkai, often used to introduce children to the broader yōkai tradition."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +139,95 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "hitotsume-evidence-edo-bestiaries",
+        "type": "illustrated bestiary",
+        "name": "Edo-period yōkai illustrations",
+        "description": "Classical Edo-period illustrated yōkai catalogues, most famously by Toriyama Sekien, depicting hitotsume-kozō as a one-eyed monk-child.",
+        "status": "unverified",
+        "analysis": "Literary and artistic records of folklore tradition, not evidentiary claims about a biological entity.",
+        "source": "Edo-period yōkai literature (general)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Yōkai of the spirit world",
+        "description": "Hitotsume-kozō is understood within Japanese folk belief as a low-ranking yōkai or spirit, sometimes a tsukumogami-adjacent or temple-related being whose principal function is to startle and to enforce ritual observance on kotoyōka days.",
+        "proponents": ["Traditional Japanese folk belief", "Yōkai bestiary tradition"],
+        "evidence_cited": ["Edo-period bestiaries", "Regional kotoyōka customs"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folklore origin in birth defects",
+        "description": "Some commentators have suggested that depictions of hitotsume-kozō and other one-eyed beings in Japanese folklore may have been informed by encounters with cyclopia, a rare congenital condition associated with severe vitamin A deficiency in pregnancy that produces a single central eye.",
+        "proponents": ["General folklorists / medical-folklore commentators"],
+        "evidence_cited": ["Comparative folklore on one-eyed beings", "Medical literature on cyclopia"]
+      },
+      {
+        "name": "Cultural and Buddhist symbolism",
+        "description": "Hitotsume-kozō is interpreted as a folkloric crystallisation of anxieties about Buddhist temple servants, household ritual observance, and the agricultural calendar, rather than as a literal entity.",
+        "proponents": ["Japanese folklorists in the Yanagita tradition"],
+        "evidence_cited": ["Embedment in kotoyōka ritual practice", "Recurring association with temple iconography and household observance"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Kantō kotoyōka traditions (8th day of the 2nd and 12th lunar months)",
+        "Edo-period yōkai bestiary tradition",
+        "Mount Hiei one-eyed-priest legends"
+      ],
+      "stories": [
+        "Tales of households placing woven bamboo baskets and holly leaves on the eaves to repel hitotsume-kozō",
+        "Stories of hitotsume-kozō recording household transgressions in a book",
+        "Brief encounter tales on dark roads and temple paths"
+      ],
+      "beliefs": "Generally treated as a comparatively harmless yōkai; rituals on kotoyōka days were ordinary domestic observances rather than emergency measures."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Toriyama Sekien's Edo-period illustrated yōkai bestiaries",
+        "Modern yōkai compendia and yōkai dictionaries"
+      ],
+      "film_tv": [
+        "Recurring appearances in anime and tokusatsu yōkai series (e.g. GeGeGe no Kitarō franchise)"
+      ],
+      "games": [
+        "Yokai Watch series",
+        "Various Japanese RPG bestiaries featuring one-eyed yōkai"
+      ],
+      "music": [],
+      "other": [
+        "Yōkai karuta cards depicting hitotsume-kozō with tofu"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Toriyama Sekien", "affiliation": "Edo-period artist and yōkai cataloguer", "contribution": "Illustrated Edo-period bestiaries that established the canonical visual depiction of hitotsume-kozō", "period": "18th century" },
+      { "name": "Katsumi Tada", "affiliation": "Independent yōkai researcher", "contribution": "Analysis of regional hitotsume-kozō variants and their associations (e.g. tofu / bean wordplay)", "period": "20th–21st centuries" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Continued academic study within Japanese folklore (minzokugaku) and yōkai studies."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-hitotsume-kozo-2026", "type": "website", "title": "Hitotsume-kozō", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hitotsume-koz%C5%8D", "accessed": "2026-05-07" }
+  ]
 }

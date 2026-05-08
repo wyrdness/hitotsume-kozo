@@ -1,314 +1,160 @@
-# Hitotsume-Kozo - The One-Eyed Boy Yokai
+# Hitotsume-kozō
 
-## Overview
-**Hitotsume-kozo** (一つ目小僧, literally "one-eyed little monk" or "one-eyed boy") is a childlike yokai from Japanese folklore characterized by its single, large eye in the center of its forehead. Despite its potentially frightening appearance, hitotsume-kozo is generally considered a relatively harmless and even somewhat comical yokai, more mischievous than malevolent. Typically depicted as appearing on rainy nights or near temples, this diminutive cyclops wears the clothing of a Buddhist monk (kozo) and is known for surprising humans by suddenly appearing and staring with its enormous single eye, often causing more startlement than actual harm.
+> A Japanese yōkai depicted as a bald child-monk with a single large eye in the centre of its face; widely treated in folklore as comparatively harmless, surprising rather than injuring those who encounter it.
 
-**Category:** ENTITY_SPIRIT  
-**Danger Level:** Low (startles humans, rarely harmful)  
-**Origin:** Japanese folklore, widespread across Japan  
-**Active Period:** Edo period (1603-1868) documentation through present  
-**Status:** One of the most recognizable yokai in Japanese popular culture
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
+## Quick Reference
 
+| Property | Value |
+|---|---|
+| **ID** | `hitotsume-kozo` |
+| **Category** | ENTITY_SPIRIT |
+| **Subcategory** | Yōkai (Japanese folklore) |
+| **First recorded** | 1700-01-01 |
+| **Primary range** | Reported across Japan in classical and regional folklore, with the densest tradition in the Kantō region |
+| **Status** | documented |
+
+---
+## Overview
+
+Hitotsume-kozō (一つ目小僧) is a yōkai of Japanese folklore, classically depicted as a small bald child resembling a Buddhist acolyte (kozō, 小僧) with a single large eye in the middle of its forehead. It appears in classical yōkai bestiaries — most famously in Toriyama Sekien's Edo-period illustrated catalogues — and in regional folk tradition across Japan, especially in the Kantō region. Unlike many yōkai, hitotsume-kozō is generally considered harmless: its principal activity is to startle people by suddenly appearing on dark roads, in temples, or beside bridges. In Kantō tradition, it is associated with the kotoyōka days (the eighth day of the second and twelfth lunar months), on which households place woven bamboo baskets (megokago) on the eaves; the basket's many woven 'eyes' are believed to frighten away the one-eyed visitor. Some local traditions describe the hitotsume-kozō as a recorder of household misdeeds, listing transgressions in a book that is later submitted to a god of plague or misfortune. The creature is part of a wider Japanese folklore family of one-eyed beings — including the larger hitotsume-nyūdō, the one-eyed-and-one-legged ichigan-hitoashi, and various regional one-eyed deities — and has been linked by some scholars to fragmentary traditions about Mount Hiei's Tendai patriarch Ryōgen.
+
+---
+## Names & Aliases
+
+| Name | Origin | Meaning |
+|---|---|---|
+| 一つ目小僧 | Japanese (kanji) | One-eyed young Buddhist acolyte |
+| Hitotsume-kozou | Japanese (rōmaji variant) |  |
+| One-eyed monk-boy | English gloss |  |
+
+## Etymology
+
+- **Origin**: Japanese: 一つ目 (hitotsume, 'one eye') + 小僧 (kozō, 'young Buddhist acolyte / boy / brat'). The kozō element places the figure within the Buddhist temple-servant register that recurs across Japanese yōkai imagery.
+- **Meaning**: 'One-eyed little monk' or 'one-eyed boy'.
+- **First use**: Classical Edo-period yōkai literature (18th century).
+
+---
+## Related Phenomena
+
+- [Hitotsume-nyūdō](../hitotsume-nyudo/) — _related_: Larger one-eyed yōkai monk; an adult counterpart to hitotsume-kozō
+- [Ichigan-hitoashi hōshi](../ichigan-hitoashi-hoshi/) — _related_: One-eyed, one-legged Buddhist priest figure of Mount Hiei tradition
+- [Ao-bōzu](../ao-bozu/) — _similar_: One-eyed blue monk yōkai of Japanese folklore
+- [Mehitotsubō](../mehitotsubo/) — _regional_variant_: Regional one-eyed yōkai variant
+- [Cyclops](../cyclops/) — _similar_: One-eyed humanoid of Greek mythology (cross-cultural parallel)
+
+---
 ## Physical Description
 
-### Standard Appearance
-- **Size**: Child-sized, typically 3-4 feet tall
-- **Single Eye**: Large, round eye in center of forehead
-- **No other eyes**: Face otherwise relatively normal
-- **Clothing**: Buddhist monk's robes (often tattered or simple)
-- **Head**: Often depicted bald like a monk or with monk's hairstyle
-- **Build**: Childlike, sometimes pudgy or round
-- **Expression**: Usually surprised, curious, or mischievous
+- **Height**: 1–1.4 meters _(low confidence)_
+- **Coloration**: pale skin, shaved head, robes typical of a Buddhist novice
+- **Morphology**: A child-shaped humanoid figure with a single large eye, generally clad in the simple robes of a Buddhist temple acolyte.
 
-### Regional Variations
-Different regions depict hitotsume-kozo slightly differently:
-- **Kanto region**: More child-like and innocent
-- **Kansai region**: Slightly more mischievous appearance
-- **Rural areas**: Sometimes merged with other one-eyed yokai traits
+### Features
 
----
+| Feature | Description | Frequency |
+|---|---|---|
+| Single central eye | One large round eye in the centre of the face, dominating the otherwise child-like features | always |
+| Bald head | Shaved or bald head as for a Buddhist acolyte | always |
+| Child-like body | Small, child-sized body, often described as around the size of a young temple servant | common |
+| Long protruding tongue | Some illustrations, including those in the Toriyama Sekien tradition, depict a long red tongue | occasional |
 
-## Behavior and Characteristics
+## Reported Abilities
 
-### Typical Encounters
-**Common Scenarios**:
-1. Appears suddenly on rainy nights
-2. Peers around corners or from behind objects
-3. Stares intently with single eye
-4. Startles humans, then disappears
-5. Sometimes follows people briefly
-6. Occasionally peeks in windows
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Sudden appearance | Manifests abruptly along dark roads, in temples, beside bridges, or in homes, primarily to startle the witness | common | folklore |
+| Recording of misdeeds | In some Kantō traditions, hitotsume-kozō visit households on kotoyōka days to record family transgressions in a book | occasional | folklore |
 
-**Personality Traits**:
-- Curious and inquisitive
-- Mischievous but not malicious
-- Shy and quick to flee if confronted
-- Enjoys startling humans
-- Child-like in demeanor
+## Behavior
 
-### Powers and Abilities
-- **Sudden Manifestation**: Appears without warning
-- **Penetrating Gaze**: Single eye said to see through lies
-- **Weather Affinity**: Often appears during rain
-- **Spiritual Sight**: Can perceive other supernatural beings
-- **Disappearance**: Vanishes quickly when noticed
+- **Activity**: nocturnal
+- **Disposition**: neutral
+- **Social structure**: solitary
+- **Habitat**: roadsides, temple grounds, village streets, houses (on kotoyōka nights)
+- **Diet**: Sometimes associated with tofu in popular and karuta imagery; not described as carnivorous or harmful.
 
 ---
+## Distribution
 
-## Cultural Significance
+Reported across Japan in classical and regional folklore, with the densest tradition in the Kantō region. Notable strands of tradition link the figure to Mount Hiei (Shiga / Kyōto) and to local folklore in eastern and central Japan.
 
-### Buddhist Connections
-The "kozo" (小僧) in the name refers to a young Buddhist acolyte or temple servant, connecting this yokai to Buddhist tradition:
-- **Temple Associations**: Often sighted near shrines and temples
-- **Monk's Garb**: Traditional Buddhist clothing
-- **Spiritual Nature**: Connection to religious spaces
-- **Liminal Figure**: Between sacred and profane
-
-### Symbolism
-**Third Eye Interpretation**:
-- Single eye as Buddhist "wisdom eye"
-- Seeing truth beyond surface appearances
-- Spiritual perception
-- Inner vision externalized
-
-**Innocence and Mischief**:
-- Child-like nature represents both innocence and unpredictability
-- Harmless trickster figure
-- Teaching about not judging by appearances
 
 ---
+## Historical Timeline
 
-## Historical Accounts and Folklore
+| Date | Event | Significance |
+|---|---|---|
+| 1700-01-01 | Edo-period Japan develops a rich illustrated yōkai literature in which hitotsume-kozō appears as a recurring figure | Codification of the modern canonical image of hitotsume-kozō |
 
-### Edo Period Tales
-Numerous stories from the Edo period feature hitotsume-kozo:
+## Evidence
 
-**Classic Encounter Pattern**:
-A traveler walking at night encounters a small figure. The figure turns, revealing a single large eye. Startled, the traveler runs or freezes. The hitotsume-kozo, having satisfied its curiosity or mischievous impulse, disappears.
+### Documentary
 
-### Collection in Yokai Encyclopedias
-**Toriyama Sekien's Works** (18th century):
-- Illustrated in multiple yokai encyclopedias
-- Described as temple-dwelling spirit
-- Visual representations standardized appearance
-
-**Regional Folktales**:
-- Village protection: Some villages considered local hitotsume-kozo as guardians
-- Children's tales: Used to keep children from wandering at night
-- Moral lessons: Don't judge solely by appearance
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Edo-period yōkai illustrations |  | Classical Edo-period illustrated yōkai catalogues, most famously by Toriyama Sekien, depicting hitotsume-kozō as a one-eyed monk-child. | unverified |
 
 ---
+## Theories & Explanations
 
-## Related One-Eyed Yokai
+### Paranormal / Cryptozoological
 
-### Hitotsume-nyudo
-- Larger, adult monk version
-- More intimidating presence
-- Same single-eye characteristic
-- Sometimes conflated with hitotsume-kozo
+**Yōkai of the spirit world** _(Traditional Japanese folk belief, Yōkai bestiary tradition)_
 
-### Other Cyclops Connections
-**Japanese One-Eyed Beings**:
-- **Ippon-datara**: One-legged, one-eyed mountain yokai
-- Various regional one-eyed yokai
-- Divine one-eyed figures in some Shinto traditions
+Hitotsume-kozō is understood within Japanese folk belief as a low-ranking yōkai or spirit, sometimes a tsukumogami-adjacent or temple-related being whose principal function is to startle and to enforce ritual observance on kotoyōka days.
 
-**Cross-Cultural Parallels**:
-- **Greek Cyclops**: Obviously larger and more dangerous
-- **Celtic Balor**: Evil one-eyed giant
-- **Norse Odin**: Sacrificed eye for wisdom
-- Widespread cyclops mythology
+### Skeptical
 
----
+**Folklore origin in birth defects** _(General folklorists / medical-folklore commentators)_
 
-## Modern Appearances
+Some commentators have suggested that depictions of hitotsume-kozō and other one-eyed beings in Japanese folklore may have been informed by encounters with cyclopia, a rare congenital condition associated with severe vitamin A deficiency in pregnancy that produces a single central eye.
 
-### Popular Culture
-**Manga and Anime**:
-- GeGeGe no Kitaro (iconic representation)
-- Yokai Watch series
-- Various horror and comedy manga
-- Cute mascot versions
+**Cultural and Buddhist symbolism** _(Japanese folklorists in the Yanagita tradition)_
 
-**Video Games**:
-- Nioh series (enemy type)
-- Yokai-themed games (various)
-- RPG encounters
-- Mobile games (cute versions)
+Hitotsume-kozō is interpreted as a folkloric crystallisation of anxieties about Buddhist temple servants, household ritual observance, and the agricultural calendar, rather than as a literal entity.
 
-**Merchandise**:
-- Plush toys
-- Figurines
-- Mascot characters
-- Cultural tourism materials
 
-### Contemporary Interpretations
-**Cute vs. Creepy**:
-Modern media presents hitotsume-kozo in two main ways:
-1. **Kawaii (Cute) Version**: Adorable mascot, big-eyed (ironically)
-2. **Horror Version**: Unsettling, sudden appearance emphasis
+## Popular Culture
 
-**Urban Settings**:
-Modern sightings reported in:
-- Urban shrines and temples
-- Abandoned buildings
-- Rainy city nights
-- Parks and green spaces
+**Literature**: Toriyama Sekien's Edo-period illustrated yōkai bestiaries; Modern yōkai compendia and yōkai dictionaries
+
+**Film / TV**: Recurring appearances in anime and tokusatsu yōkai series (e.g. GeGeGe no Kitarō franchise)
+
+**Games**: Yokai Watch series; Various Japanese RPG bestiaries featuring one-eyed yōkai
+
+**Other**: Yōkai karuta cards depicting hitotsume-kozō with tofu
 
 ---
+## Research
 
-## Psychological and Academic Analysis
+### Researchers
 
-### Folkloristic Interpretation
-**Dr. Michael Dylan Foster** (Yokai Studies):
-- Hitotsume-kozo as liminal childhood figure
-- Between human and supernatural
-- Temple connections reflect religious ambiguity in folk belief
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Toriyama Sekien | Edo-period artist and yōkai cataloguer | Illustrated Edo-period bestiaries that established the canonical visual depiction of hitotsume-kozō | 18th century |
+| Katsumi Tada | Independent yōkai researcher | Analysis of regional hitotsume-kozō variants and their associations (e.g. tofu / bean wordplay) | 20th–21st centuries |
 
-**Komatsu Kazuhiko** (Japanese folklorist):
-- One-eyed yokai as markers of otherness
-- Physical difference = supernatural nature
-- Social function in defining normalcy
-
-### Psychological Symbolism
-**Carl Jung's Archetypes**:
-- The Divine Child archetype
-- Trickster energy in child form
-- Shadow as physical difference
-- Integration of the outcast
-
-**Developmental Psychology**:
-- Child-sized monsters reflect childhood fears
-- Encountering the "different" other
-- Processing physical difference
-- Learning empathy through folklore
+Continued academic study within Japanese folklore (minzokugaku) and yōkai studies.
 
 ---
+## Sources
 
-## Defense and Encounter Guidelines
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-### Traditional Methods
-**How to Respond**:
-1. **Stay Calm**: Hitotsume-kozo is rarely harmful
-2. **Don't Run**: Often makes it follow out of curiosity
-3. **Acknowledge Politely**: A bow or greeting may appease
-4. **Ignore**: Sometimes the best response
-5. **Offer Something**: Small offerings might satisfy
 
-**What NOT to Do**:
-- Mock or insult the appearance
-- Attempt to harm it
-- Display excessive fear
-- Chase or pursue
+## How to Report a Sighting
 
-### Modern Encounters
-If you believe you've encountered something matching hitotsume-kozo:
-- Document calmly (photo/video if possible)
-- Note environmental conditions (weather, location, time)
-- Consider rational explanations
-- Respect the experience
-- Share with yokai research communities
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
+## License
 
-## Regional Variations
-
-### Kanto Region (Tokyo area)
-- More frequent sightings historically
-- Often depicted in urban settings now
-- Cultural center for yokai media
-
-### Kansai Region (Osaka/Kyoto)
-- Slightly different appearance traditions
-- More temple-associated stories
-- Integration with local folklore
-
-### Rural Japan
-- Merged with local one-eyed spirits
-- Mountain and forest sightings
-- Agricultural calendar associations
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-## Comparative Mythology
-
-### One-Eyed Beings Worldwide
-**Similarities**:
-- Physical distinctiveness marks supernatural nature
-- Often possess special vision/insight
-- Range from benevolent to malevolent
-- Cultural "other" representation
-
-**Differences**:
-- Hitotsume-kozo uniquely child-like and non-threatening
-- Japanese version more playful than most cyclops figures
-- Buddhist cultural context distinct
-
----
-
-## Academic Sources and Research
-
-### Primary Folklore Collections
-1. **Toriyama Sekien** - "Gazu Hyakki Yagyō" (1776)
-2. **Takehara Shunsen** - "Ehon Hyaku Monogatari" (1841)
-3. **Mizuki Shigeru** - Modern yokai encyclopedias
-
-### Scholarly Analysis
-- Foster, Michael Dylan. "The Book of Yokai" (2015)
-- Reider, Noriko T. "Japanese Demon Lore" (2010)
-- Komatsu, Kazuhiko. "An Introduction to Yokai Culture" (2017)
-
----
-
-## Conclusion
-
-Hitotsume-kozo stands as one of Japanese folklore's most recognizable and endearing yokai—a creature whose potentially frightening appearance belies a largely harmless, curious nature. As a child-monk with a single eye, it embodies multiple layers of meaning: the Buddhist concept of inner vision, the social processing of physical difference, and the liminal space between childhood innocence and supernatural otherness.
-
-In modern Japan, hitotsume-kozo has evolved from a figure meant to startle (and perhaps teach) into a cultural icon, appearing in everything from horror manga to cute mascots. This transformation reflects broader changes in how Japan relates to its yokai heritage—from fear and superstition to nostalgia and cultural pride.
-
-Whether understood as:
-- Actual supernatural entity
-- Psychological projection of anxieties about difference
-- Cultural mechanism for processing the "other"
-- Literary and artistic creation
-- Childhood folklore figure
-
-Hitotsume-kozo continues to fascinate, embodying the playful, mischievous side of the yokai world while reminding us that appearances—even a single, staring eye—don't necessarily indicate malevolence.
-
----
-
-## Version History
-- **1.0.0** (2026-01-14): Comprehensive documentation for FINAL BATCH 39 - Entry 4 of 13
-
-## Bibliography and Sources
-
-### Primary Sources
-1. Toriyama Sekien. "Gazu Hyakki Yagyō" (画図百鬼夜行) - 1776
-2. Toriyama Sekien. "Konjaku Gazu Zoku Hyakki" (今昔画図続百鬼) - 1779
-3. Takehara Shunsen. "Ehon Hyaku Monogatari" (絵本百物語) - 1841
-
-### Modern Yokai Studies
-4. Mizuki, Shigeru. "Mizuki Shigeru no Yokai Daizukai" (水木しげるの妖怪大図鑑) - Multiple editions
-5. Foster, Michael Dylan. "The Book of Yokai: Mysterious Creatures of Japanese Folklore" (2015)
-6. Foster, Michael Dylan. "Pandemonium and Parade: Japanese Monsters and the Culture of Yokai" (2009)
-7. Reider, Noriko T. "Japanese Demon Lore: Oni from Ancient Times to the Present" (2010)
-8. Komatsu, Kazuhiko. "An Introduction to Yokai Culture" (2017)
-
-### Cultural Analysis
-9. Figal, Gerald. "Civilization and Monsters: Spirits of Modernity in Meiji Japan" (1999)
-10. Schodt, Frederik L. "Dreamland Japan: Writings on Modern Manga" (1996)
-
-### Comparative Mythology
-11. Weinstock, Jeffrey Andrew. "The Ashgate Encyclopedia of Literary and Cinematic Monsters" (2014)
-12. Davidson, Hilda Ellis. "Roles of the Northern Goddess" (1998) - Comparative cyclops
-
-### Popular Culture Studies
-13. Various GeGeGe no Kitaro manga and anime series
-14. Yokai Watch media franchise materials
-15. Academic articles on yokai in modern Japanese media
-
----
-
-**FINAL BATCH 39 - Entry 4 of 13 toward 500 TOTALall* ✓
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
